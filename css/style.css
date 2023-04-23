@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    background: #1C1C1C;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    background: #1C1C1C;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(../img/Hero\ area.png) no-repeat center/cover;
+    height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+
+.logo {}
+
+.logo__img {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 28px;
+
+}
+
+.nav__item:last-child {
+    margin-right: 0px;
+}
+
+.nav__link__2 {
+    padding: 17px;
+    width: 43px;
+    height: 18px;
+    left: 619px;
+    top: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+
+.nav__link {
+    width: 43px;
+    height: 16px;
+    left: 690px;
+    top: 43px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding: 17px;
+
+}
+
+.btn {
+    border: none;
+    padding: 15px 36px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    background: #f6762c;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+.content {
+    padding-top: 150px;
+    max-width: 49%;
+}
+
+.content__main {}
+
+.content__headline {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+
+}
+
+.title {
+    font-weight: 500;
+    font-size: 57.33px;
+    line-height: 67px;
+    margin-bottom: 37px;
+}
+
+.hero__title {}
+
+.content__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 42px;
+}
+
+.food {
+    padding: 115px 0px 102px;
+    margin-left: 229px;
+    margin-right: 228px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__item {
+    width: 23%;
+}
+
+.dish {
+    overflow: hidden;
+    background: #312F30;
+    border-radius: 10px;
+}
+
+.dish__img-wrap {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+}
+
+.dish_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dish__desc {
+    padding: 28px 35px 30px;
+}
+
+.dish__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+
+.dish__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.order {
+    background: #312F30;
+    padding: 73px 0px 81px;
+}
+
+.order__container {
+    display: flex;
+    align-items: center;
+}
+
+.container {}
+
+.order__img-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order__column {
+    width: 50%;
+}
+
+.order__img {}
+
+.order__desc {
+    padding-left: 18.09%;
+}
+
+.call-to-action {}
+
+.order__call-to-action {
+    max-width: 371px;
+}
+
+.call-to-action__title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.18;
+}
+
+.order__call-to-action-title {
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+
+.order__paragraph {
+    margin-bottom: 13px;
+}
+
+.paragragh {}
+
+.price {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-bottom: 11px;
+}
+
+
+.price__new {}
+
+.price__new--size--big {
+    font-size: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: rgba(246, 118, 44, 1);
+
+}
+
+.price__old {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: rgba(246, 118, 44, 1);
+    opacity: 0.5;
+}
+
+
+.product {
+    padding: 150px 0px 146px 0px;
+}
+
+.container {}
+
+.product__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.offer {
+    position: relative;
+
+}
+
+.product__offer {
+    width: 48.7%;
+    height: 300px;
+}
+
+.offer__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.call-to-action {}
+
+.offer__call-to-action {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 47.6%;
+    left: 9%;
+}
+
+.offer__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.offer__paragraph {
+    margin-bottom: 11px;
+}
+
+
+.offer__price {
+    margin-bottom: 11px;
+}
+
+
+.price__new--size--normal {
+    font-size: 16px;
+    color: #F6762C;
+}
+
+
+
+.offer__btn {}
+
+.btn--size--small {
+    padding: 13px 36px;
+    font-size: 12px;
+}
+
+/* .feedback {
+    padding: 146px 0px 195px;
+}
+
+.feedback__conteiner {}
+
+.feedback__content {
+    display: flex;
+}
+
+.feedback__column {
+    width: 50%;
+}
+
+.avatars {}
+
+.avatar {
+    width: 85px;
+    height: 85px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.feedback__avatar {
+    width: 85px;
+    height: 85px;
+    
+}
+
+.avatar__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.review {
+  
+}
+
+.review__text {
+}
+
+.review__auhor {}
+
+.review__info {} */
+.Download {
+    position: absolute;
+    background: #312F30;
+    width: 16000px;
+    height: 170px;
+}
+
+.Download__conteiner {}
+
+.Download__text {
+    padding-top: 61px;
+    padding-left: 323px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.Download__btn {
+    position: absolute;
+    width: 165px;
+    height: 49px;
+    background: #F6762C;
+    font-family: 'Roboto';
+    font-style: normal;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 800px;
+
+}
